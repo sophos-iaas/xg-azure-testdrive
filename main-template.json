@@ -49,7 +49,7 @@
         "nic_windowsPrivateIp": "172.18.1.5",
         "sophosvm": "xgvm",
         "sophosVmPassword": "XgPassword@123",
-        "vmSize": "Standard_D2",
+        "vmSize": "Standard_F2s_v2",
         "imagePublisher": "sophos",
         "imageOffer": "sophos-xg",
         "imageSKU": "payg",

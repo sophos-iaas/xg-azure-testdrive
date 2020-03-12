@@ -60,7 +60,7 @@
             "apiVersion": "2015-06-15",
             "location": "[parameters('location')]",
             "plan": {
-                "name": "payg",
+                "name": "payg-new",
                 "product": "sophos-xg",
                 "publisher": "sophos"
             },
