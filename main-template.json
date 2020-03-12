@@ -54,7 +54,7 @@
         "imageOffer": "sophos-xg",
         "imageSKU": "payg-new",
         "windowsVmName": "clientVm",
-        "windowsVmSize": "Standard_D1_v2",
+        "windowsVmSize": "Standard_A2_v2",
         "windows_ImagePublisher": "MicrosoftWindowsServer",
         "windows_ImageOffer": "WindowsServer",
         "windows_ImageSKU": "2012-R2-Datacenter",
