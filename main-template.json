@@ -52,7 +52,7 @@
         "vmSize": "Standard_F2s_v2",
         "imagePublisher": "sophos",
         "imageOffer": "sophos-xg",
-        "imageSKU": "payg",
+        "imageSKU": "payg-new",
         "windowsVmName": "clientVm",
         "windowsVmSize": "Standard_D1_v2",
         "windows_ImagePublisher": "MicrosoftWindowsServer",
