@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {},
     "variables": {
-        "baseUrl": "https://raw.githubusercontent.com/sophos-iaas/xg-azure-testdrive/master",
+        "baseUrl": "https://raw.githubusercontent.com/jornlutters/xg-azure-testdrive/master",
         "availabilitySetName": "avset",
         "apiVersion": "2015-01-01",
         "location": "[resourcegroup().location]",
