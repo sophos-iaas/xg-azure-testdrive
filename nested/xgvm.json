@@ -4,38 +4,7 @@
     "parameters": {
         "location": {
             "type": "string",
-            "defaultValue": "westus",
-            "allowedValues": [
-                "Brazil South",
-                "brazilsouth",
-                "East Asia",
-                "eastasia",
-                "East US",
-                "eastus",
-                "Japan East",
-                "japaneast",
-                "Japan West",
-                "japanwest",
-                "North Central US",
-                "northcentralus",
-                "North Europe",
-                "northeurope",
-                "South Central US",
-                "southcentralus",
-                "West Europe",
-                "westeurope",
-                "West US",
-                "westus",
-                "Southeast Asia",
-                "southeastasia",
-                "Central US",
-                "centralus",
-                "East US 2",
-                "eastus2"
-            ],
-            "metadata": {
-                "description": "Deployment Location Hint: Use lowercase for creating ipaddress"
-            }
+            "defaultValue": "westus"
         },
         "availabilitySetName": {
             "type": "string",
@@ -59,7 +28,7 @@
             "type": "string"
         },
          "imageSKU": {
-            "defaultValue": "payg",
+            "defaultValue": "payg-new",
             "type": "string"
         },
         "storageAccountName": {
@@ -91,7 +60,7 @@
             "apiVersion": "2015-06-15",
             "location": "[parameters('location')]",
             "plan": {
-                "name": "payg",
+                "name": "payg-new",
                 "product": "sophos-xg",
                 "publisher": "sophos"
             },
